@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "winestead:block/aging_barrel",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "winestead:block/aging_barrel"
+    },
+    "facing=south": {
+      "model": "winestead:block/aging_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "winestead:block/aging_barrel",
+      "y": 270
+    }
+  }
+}

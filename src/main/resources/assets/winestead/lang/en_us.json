@@ -1,0 +1,27 @@
+{
+
+// Blocks
+"block.winestead.aging_barrel": "Aging Barrel",
+"block.winestead.wooden_vat": "Wooden Vat",
+"block.winestead.wine_barrel": "Wine Barrel",
+
+// Containers
+"container.winestead.wine_barrel": "Wine Barrel",
+
+
+// Items
+"item.winestead.wine_item": "Wine Item",
+"item.winestead.red_grapes": "Red Grapes",
+"item.winestead.white_grapes": "White Grapes",
+"item.winestead.blazed_grapes": "Blazed Grapes",
+
+
+// Sounds
+"sounds.winestead.barrel.cork_pulled": "Cork Pulled",
+"sounds.winestead.barrel.barrel_seal": "Barrel Sealed",
+"sounds.winestead.barrel.barrel_tap": "Barrel Tapped",
+
+
+// Misc
+"itemGroup.winestead_tab": "Winestead Tab"
+}

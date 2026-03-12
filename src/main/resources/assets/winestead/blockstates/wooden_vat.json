@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "contents_level=0,is_full=false,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=0,is_full=true,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=1,is_full=false,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=1,is_full=true,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=2,is_full=false,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=2,is_full=true,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=3,is_full=false,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=3,is_full=true,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=4,is_full=false,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=true,stomped_level=0": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=3,is_full=false,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_1"
+    },
+    "contents_level=3,is_full=true,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_1"
+    },
+    "contents_level=2,is_full=false,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_2"
+    },
+    "contents_level=2,is_full=true,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_2"
+    },
+    "contents_level=1,is_full=false,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_3"
+    },
+    "contents_level=1,is_full=true,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_3"
+    },
+    "contents_level=0,is_full=false,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_4"
+    },
+    "contents_level=0,is_full=true,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stomp_4"
+    },
+    "contents_level=0,is_full=false,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=0,is_full=true,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=0,is_full=false,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=0,is_full=true,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=0,is_full=false,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=0,is_full=true,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_empty"
+    },
+    "contents_level=1,is_full=false,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=1,is_full=true,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=1,is_full=false,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=1,is_full=true,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=1,is_full=false,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=1,is_full=true,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_1"
+    },
+    "contents_level=2,is_full=false,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=2,is_full=true,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=2,is_full=false,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=2,is_full=true,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=2,is_full=false,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=2,is_full=true,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_2"
+    },
+    "contents_level=3,is_full=false,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=3,is_full=true,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=3,is_full=false,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=3,is_full=true,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=3,is_full=false,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=3,is_full=true,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_3"
+    },
+    "contents_level=4,is_full=false,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=true,stomped_level=1": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=false,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=true,stomped_level=2": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=false,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=true,stomped_level=3": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=false,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    },
+    "contents_level=4,is_full=true,stomped_level=4": {
+      "model": "winestead:block/wooden_vat/wooden_vat_stage_4"
+    }
+  }
+}

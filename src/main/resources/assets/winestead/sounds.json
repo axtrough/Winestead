@@ -1,0 +1,20 @@
+{
+  "cork_pulled": {
+    "subtitle": "sounds.winestead.cork_pulled",
+    "sounds": [
+      "winestead:cork_pulled"
+    ]
+  },
+  "barrel_tap": {
+    "subtitle": "sounds.winestead.barrel.barrel_tap",
+    "sounds": [
+      "winestead:barrel_tap"
+    ]
+  },
+  "barrel_seal": {
+    "subtitle": "sounds.winestead.barrel.barrel_seal",
+    "sounds": [
+      "winestead:barrel_seal"
+    ]
+  }
+}

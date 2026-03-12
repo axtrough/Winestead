@@ -1,2 +1,4 @@
-// 26.1-snapshot-4	2026-02-10T05:15:27.3336426	Loot Tables
-c4e2e57ead4e80bb21091b188572c203abfa005c data/ventura/loot_table/blocks/aging_barrel.json
+// 26.1-snapshot-10	2026-03-12T00:11:13.4819918	Loot Tables
+fc334fd00354d2319828ddcdacb2f21b80c68fe7 data/winestead/loot_table/blocks/aging_barrel.json
+90dee7a71cb7c694274d468157b4c2e6b68bbba7 data/winestead/loot_table/blocks/wine_barrel.json
+56a32bfc7d8ec82034a2357c8e24b72534173b78 data/winestead/loot_table/blocks/wooden_vat.json
