@@ -14,6 +14,7 @@ import net.neoforged.neoforge.client.network.ClientPacketDistributor;
 import net.raccoon.will.winestead.Winestead;
 import net.raccoon.will.winestead.common.menus.WineBarrelMenu;
 import net.raccoon.will.winestead.core.network.packets.ItemBarrelPacket;
+import net.raccoon.will.winestead.util.Util;
 
 public class WineBarrelScreen extends AbstractContainerScreen<WineBarrelMenu> {
 
@@ -32,13 +33,20 @@ public class WineBarrelScreen extends AbstractContainerScreen<WineBarrelMenu> {
         int yo = (this.height - this.imageHeight) / 2;
         graphics.blit(RenderPipelines.GUI_TEXTURED, TEXTURE, xo, yo, 0.0F, 0.0F, this.imageWidth, this.imageHeight, 256, 256);
 
-
         if (menu.barrelHasIngredients()) {
             int fluidLeft = xo + 11;
-            int fluidTop = yo + 42;
             int fluidRight = xo + 62;
             int fluidBottom = yo + 76;
-            graphics.fill(fluidLeft, fluidTop, fluidRight, fluidBottom, 0xffe1ff00);
+            int maxHeight = 34;
+
+            float ratio = (float) menu.getIngredientCount() / menu.getMaxIngredients();
+            ratio = Math.min(ratio, 1f);
+            int fluidHeight = (int)(maxHeight * ratio);
+            int fluidTop = fluidBottom - fluidHeight;
+
+            graphics.fillGradient(fluidLeft, fluidTop, fluidRight, fluidBottom,
+                    Util.getARGB(255, 171, 30, 75), Util.getARGB(228, 95, 33, 100)
+            );
         }
     }
 

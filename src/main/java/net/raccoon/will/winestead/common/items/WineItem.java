@@ -27,7 +27,7 @@ public class WineItem extends Item {
             builder.accept(Component.literal("Time Aged: " + formatted + "d").withStyle(ChatFormatting.GRAY));
 
             if (days == 1) {
-                builder.accept(Component.literal("Basic Wine").withStyle(ChatFormatting.GRAY));
+                builder.accept(Component.literal("Young Wine").withStyle(ChatFormatting.GRAY));
             } else if (days == 3) {
                 builder.accept(Component.literal("Fine Wine").withStyle(ChatFormatting.WHITE));
             } else if (days == 7) {

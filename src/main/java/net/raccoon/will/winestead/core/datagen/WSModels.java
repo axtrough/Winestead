@@ -25,6 +25,8 @@ public class WSModels extends ModelProvider {
     @Override
     protected void registerModels(@NotNull BlockModelGenerators blockModels, @NotNull ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(WSItems.WINE_ITEM.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(WSItems.BLAZED_WINE.get(), ModelTemplates.FLAT_ITEM);
+
         itemModels.generateFlatItem(WSItems.RED_GRAPES.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(WSItems.WHITE_GRAPES.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(WSItems.BLAZED_GRAPES.get(), ModelTemplates.FLAT_ITEM);

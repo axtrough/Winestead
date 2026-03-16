@@ -17,7 +17,7 @@ import static net.raccoon.will.winestead.registry.WSBlockEntities.WINE_BARREL_BE
 public class WineBarrelBlockEntity extends BaseContainerBlockEntity {
     public static final int SIZE = 3;
     private NonNullList<ItemStack> items = NonNullList.withSize(SIZE, ItemStack.EMPTY);
-    private NonNullList<ItemStack> ingredients = NonNullList.withSize(8, ItemStack.EMPTY);
+    private final NonNullList<ItemStack> ingredients = NonNullList.withSize(8, ItemStack.EMPTY);
 
     public WineBarrelBlockEntity(BlockPos worldPosition, BlockState blockState) {
         super(WINE_BARREL_BE.get(), worldPosition, blockState);
@@ -56,6 +56,20 @@ public class WineBarrelBlockEntity extends BaseContainerBlockEntity {
 
     public boolean hasIngredients() {
         return ingredients.stream().anyMatch(stack -> !stack.isEmpty());
+    }
+
+    public int getIngredientSlotsFilled() {
+        int count = 0;
+        for (ItemStack stack : ingredients) {
+            if (!stack.isEmpty()) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public int getMaxIngredients() {
+        return ingredients.size();
     }
 
     @Override

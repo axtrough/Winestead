@@ -12,6 +12,7 @@ public class WSItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Winestead.MODID);
 
     public static final DeferredItem<Item> WINE_ITEM = ITEMS.registerItem("wine_item", WineItem::new, Item.Properties::new);
+    public static final DeferredItem<Item> BLAZED_WINE = ITEMS.registerItem("blazed_wine", WineItem::new, Item.Properties::new);
 
     public static final DeferredItem<Item> RED_GRAPES = ITEMS.registerSimpleItem("red_grapes", properties -> properties.food(WSFoods.Red_Grapes));
     public static final DeferredItem<Item> WHITE_GRAPES = ITEMS.registerSimpleItem("white_grapes", properties -> properties.food(WSFoods.White_Grapes));

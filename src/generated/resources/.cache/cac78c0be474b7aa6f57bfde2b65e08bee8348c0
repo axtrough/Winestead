@@ -1,14 +1,16 @@
-// 26.1-snapshot-10	2026-03-12T00:15:02.6889431	Model Definitions - winestead
+// 26.1-snapshot-10	2026-03-14T04:54:56.0801925	Model Definitions - winestead
 cd49de85d561e04d968c9c6a8855a0d219416b41 assets/winestead/blockstates/aging_barrel.json
 6e56e497748564a5c81fc5a87effe0e93bc7ad4b assets/winestead/blockstates/wine_barrel.json
 ebd887d973f70a16c0ff00857e1e3c92f51b358f assets/winestead/items/aging_barrel.json
 f3e6ba8240a806c6a417ecb00546baa6ecd35e91 assets/winestead/items/blazed_grapes.json
+0232b43424b24a2339c967e6aef37541de405fd8 assets/winestead/items/blazed_wine.json
 ff03cfc5336cb9a505565e719fb8b7b4205d3cc9 assets/winestead/items/red_grapes.json
 ca0f2e47e7c272af6a27bfe7b8a04b2b8ca6bdfd assets/winestead/items/white_grapes.json
 ebd887d973f70a16c0ff00857e1e3c92f51b358f assets/winestead/items/wine_barrel.json
 3a461ef48e2ce153d77b585cbd1b375816989a2d assets/winestead/items/wine_item.json
 285c84ece39290fd590a7b8eb5017388dfaaec8b assets/winestead/items/wooden_vat.json
 f6425185487e2596b4bc10f38815f5d803071de6 assets/winestead/models/item/blazed_grapes.json
+ee282b6a4f3b1065e7d613dd85231f450627fa18 assets/winestead/models/item/blazed_wine.json
 89d6fb805c337494c57469f86182a11ee8eacc3e assets/winestead/models/item/red_grapes.json
 ca472c9294a497776daff328e3eb1a110c595488 assets/winestead/models/item/white_grapes.json
 c10e40edc13342c162b67221e39226cbf37f7547 assets/winestead/models/item/wine_item.json

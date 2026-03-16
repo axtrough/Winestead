@@ -20,16 +20,17 @@ public class WineBarrelMenu extends AbstractContainerMenu {
 
     //client side
     public WineBarrelMenu(int containerId, Inventory inv) {
-        this(containerId, inv, new SimpleContainer(3), new SimpleContainerData(4));
+        this(containerId, inv, new SimpleContainer(3), new SimpleContainerData(5));
     }
 
     //server side
     public WineBarrelMenu(int containerId, Inventory inv, Container wineBarrel, BlockPos pos) {
-        this(containerId, inv, wineBarrel, new SimpleContainerData(4) {{
+        this(containerId, inv, wineBarrel, new SimpleContainerData(5) {{
             set(0, pos.getX());
             set(1, pos.getY());
             set(2, pos.getZ());
             set(3, 0);
+            set(4, 0);
         }});
     }
 
@@ -49,6 +50,7 @@ public class WineBarrelMenu extends AbstractContainerMenu {
     public void broadcastChanges() {
         if (wineBarrel instanceof WineBarrelBlockEntity be) {
             data.set(3, be.hasIngredients() ? 1 : 0);
+            data.set(4, be.getIngredientSlotsFilled());
         }
         super.broadcastChanges();
     }
@@ -59,6 +61,14 @@ public class WineBarrelMenu extends AbstractContainerMenu {
 
     public boolean barrelHasIngredients() {
         return data.get(3) == 1;
+    }
+
+    public int getIngredientCount() {
+        return data.get(4);
+    }
+
+    public int getMaxIngredients() {
+        return 8;
     }
 
     @Override

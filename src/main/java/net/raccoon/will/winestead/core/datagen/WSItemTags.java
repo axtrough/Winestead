@@ -19,7 +19,8 @@ public class WSItemTags extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NonNull Provider provider) {
         tag(WSTags.Items.AGEABLE_ITEMS)
-                .add(WSItems.WINE_ITEM.get());
+                .add(WSItems.WINE_ITEM.get())
+                .add(WSItems.BLAZED_WINE.get());
 
         tag(WSTags.Items.VALID_GRAPE)
                 .add(WSItems.RED_GRAPES.get());
